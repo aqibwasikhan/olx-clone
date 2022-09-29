@@ -1,0 +1,106 @@
+.myImage {
+    width: 50px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.background{
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.background:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.2;
+    background-image: url('../../../public/loginbackground.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+
+.login-signup{
+    position: relative;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 27rem;
+    margin-top: 60px;
+    width: 285px; 
+    justify-content: center; 
+    display: inline-block; 
+    color: #002f34; 
+    padding: 1rem;
+    margin-bottom: 60px;
+    
+}
+.olx-img{
+    width: 7rem;
+    height: 6.5rem;
+    margin-bottom: -40px;
+}
+.wto{
+    margin-top: 27px ;
+}
+.input{
+    width: 80%;
+    border-radius: 4px;
+    height: 15px;
+    margin-top: 0.7rem;
+    border-color: #002f34;
+    padding: 8px;
+}
+
+#btn_logi{
+    width: 86%;
+    height: 30px;
+    padding: 1px;
+    text-align: center;
+    border-color: #002f34;
+    background-color: #002f34;
+    color: white;
+    border-radius: 4px;
+    margin-top: 87px;
+    cursor: pointer;
+
+}
+.btn_signup{
+    width: 86%;
+    height: 30px;
+    padding: 1px;
+    text-align: center;
+    border-color: #002f34;
+    background-color: #002f34;
+    color: white;
+    border-radius: 4px;
+    margin-top: 42px;
+    cursor: pointer;
+
+}
+
+.btn_signup:hover{
+    background-color: #001618;
+}
+.btn_login:hover{
+    background-color: #001618;
+}
+
+
+.switchbtn{
+    border: none;
+    background-color: transparent;
+    color: #002f34;
+}
+.switchbtn:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+

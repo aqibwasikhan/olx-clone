@@ -1,0 +1,86 @@
+.App {
+
+  /* background-image:url(../public/loginbackground.png);
+  background-repeat: no-repeat;
+  background-position: fixed; */
+}
+.olxsvg {
+  width: 2.2rem;
+  height: 2rem;
+  fill: #3a77ff
+}
+.olxicone {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.firstrow {
+  display: flex;
+  margin-left: 2vw;
+  padding: 17px;
+}
+.motor {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 2vw;
+}
+.motor:hover{
+  color: #12a5a0;
+  cursor: pointer;
+}
+.OLX_Motors:hover{
+  fill: #12a5a0;
+  cursor: pointer;
+}
+.OLX_Property {
+  margin-top: 1px
+}
+.OLX_Property:hover{
+  fill: #12a5a0;
+}
+.property {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  color:#002f34;
+}
+.property:hover{
+  color: #12a5a0;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,83 @@
+
+.profile-comp{
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 422px;
+    box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    margin-top: -218px;
+    margin-left: 426px;
+    padding: 20px;
+    text-align: center;
+
+}
+.profile-comp input{
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid #012f34;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.profile-comp input:hover{
+    border: 2px solid #12a5a0;
+
+}
+
+.profile-comp div{
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.profile-comp textarea{
+    margin-top: 10px;
+    border: 2px solid #012f34;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.profile-comp textarea:hover{
+    border: 2px solid #12a5a0;
+}
+.buttons button{
+    padding: 8px 20px 8px 20px;
+    border-radius: 4px;
+    
+    
+}
+.cncl:hover{
+    background-color: #ff9a9a;
+    color: white;
+    cursor: pointer;
+    
+}
+.cncl{
+    border-color: #ff9a9a;
+    background: transparent;
+    color: #fb7070;
+    font-weight: 600;
+}
+.change{
+    color:#40c0bc;
+    border-color: #40c0bc;
+    background: transparent;
+    font-weight: 600;
+}
+.change:hover{
+    background-color: #40c0bc;
+    border-color: #40c0bc;    
+    color: white;
+    cursor: pointer;
+}
+.cros{
+    border: none;
+    background: transparent;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 7px;
+    margin-right: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    width: 100vw;
+    border: 2px solid #cdd6d7;
+    background-color: #ebeeef;
+    border-bottom: 40px solid #002f34;
+    height: 170px;
+    padding: 20px;
+
+}
+/* .footer_img{
+    width: 100%;
+} */
+.footer div{
+    margin-right: 6vw;
+    font-weight: 500;
+}
+.popular{
+    margin-left: 6vw;
+}
+.footer span{
+    color: #888f8f;
+    font-weight: 400;
+}
+.footer span:hover{
+    color: #4f5252;
+    cursor: pointer;
+}
