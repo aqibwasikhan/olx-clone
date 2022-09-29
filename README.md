@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Firebase Deployed url = https://temp-login-68d4d.web.app/
 
 ## Available Scripts
 
